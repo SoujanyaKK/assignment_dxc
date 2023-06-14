@@ -1,0 +1,43 @@
+html,body{
+    margin: 0;
+    height: 100%;
+}
+
+
+.main-container{
+    width:100%;
+    background-image: url(images/download.jpg);
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:140px;
+}
+
+.main-container nav {
+    display: flex;
+    padding: 2px 12px;
+    background-color: rgba(130, 70, 70,0.3);
+}
+
+.main-container h1{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+.main-container ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 8px;
+    display: inline;
+    border-radius: 6px;
+    text-align: center;
+    background-color: rgba(130, 162, 222,0.3);
+}
+
+.main-container ul li a:hover{
+    background-color:rgba(230, 230, 250,0.5);
+    border-radius: 2px;
+}
+
+.movie

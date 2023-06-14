@@ -1,0 +1,70 @@
+html,body{
+    margin:0;
+    padding: 0;
+    background-color: aliceblue;
+}
+
+.main-container{
+    padding: 18px 10px;
+    overflow: hidden;
+    background-image: url(images/download.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:200px;
+}
+
+.main-container h1{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size:40px;
+    padding-top: 2px;
+}
+.main-container ul li{
+    text-decoration: none;
+    list-style-type: none;
+    text-align:center;
+    float: right;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 20px;
+
+}
+.main-container ul li a:hover {
+    background-color: rgba(255, 254, 252,0.5);
+    color: black;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+.logo{
+    float: left;
+    padding-right: 10px;
+}
+
+.section-container p{
+    font-size: lighter;
+    text-align: justify;
+
+}
+
+.footer-container{
+    background-color: rgb(187, 227, 227);
+    max-height: fit-content;
+}
+.footer-container ul li img{
+    display:block;
+    width: 20px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.footer-container h2,h5{
+    text-align: center;
+    
+}
+.footer-container ul li{
+    list-style-type: none;
+    
+}
